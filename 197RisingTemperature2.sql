@@ -1,0 +1,1 @@
+select A.Id from Weather as A where A.Temperature > (Select B.Temperature from Weather as B where datediff(A.Date, B.Date) = 1)
