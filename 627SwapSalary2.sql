@@ -1,0 +1,1 @@
+update salary set sex = char(ASCII(sex) ^ ASCII("m") ^ ASCII("f"));
